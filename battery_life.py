@@ -27,7 +27,7 @@ optimal_charging_time = st.number_input("Optimal Charging Time (Hours)", min_val
 #load saved model and predict
 st.header("Prediction")
 
-model_path = r"D:\advertisement_prediction\sales\battery_life_predictor.joblib"
+model_path = "battery_life_predictor.joblib"
 
 #load model
 if os.path.exists(model_path):
