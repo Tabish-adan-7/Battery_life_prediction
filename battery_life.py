@@ -9,7 +9,7 @@ st.set_page_config(page_title="Battery Life Predictor", layout="centered")
 st.title(" Battery Life Prediction App")
 st.write("""
 Estimate your device’s remaining battery life based on your unique usage and charging habits.
-This model is optimized for devices that are 2–4 years old, where prediction accuracy is highest.
+This model is optimized for devices that are 2–5 years old, where prediction accuracy is highest.
 """)
 
 st.header("Enter Your Device & Usage Details")
